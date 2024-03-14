@@ -19,13 +19,18 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
+    overflow: auto;
+}
+
+.main-container::-webkit-scrollbar{
+    display: none;    
 }
 
 .user{
     width: calc(100% / 7 - 1rem);
     /* height: calc(100% / 5 - 1rem); */
     /* margin: 0.5rem; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .user img{
