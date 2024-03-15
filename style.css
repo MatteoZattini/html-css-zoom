@@ -20,6 +20,22 @@
     justify-content: center;
     gap: 0.5rem;
     overflow: auto;
+    position: relative;
+}
+
+.speaker{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.fa-table-cells{
+    font-size: 0.8rem;
 }
 
 .main-container::-webkit-scrollbar{
@@ -32,12 +48,31 @@
     /* height: calc(100% / 5 - 1rem); */
     /* margin: 0.5rem; */
     border: 1px solid black;
+    position: relative;
 }
 
 .user img{
     width: 100%;
     display: block;
     /* height: auto;    */
+}
+
+.mic{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    padding: 0.2rem 0.5rem;
+}
+
+.fa-microphone-slash{
+    font-size: 1rem;
+    color: white;
+}
+
+.main-container span{
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
 }
 
 /* Footer */
